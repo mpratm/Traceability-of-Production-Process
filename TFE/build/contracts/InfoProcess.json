@@ -1,0 +1,251 @@
+{
+  "contractName": "InfoProcess",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.15+commit.e14f2714\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/mapping.sol\":\"InfoProcess\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/mapping.sol\":{\"keccak256\":\"0x59ef7f00080702a5503e38463aa1e5b8f4d8ff87ef945f44a38ba04a8394e012\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://a99598d18d86e9f116a23bacf291e54d2d07526bbcbeabb86ee8afad107a6bab\",\"dweb:/ipfs/QmTYweeQxis13VYsZXPWeJxCYrfo87PMR4oR8TSoGppfj8\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220a7a8c18af2054d48523c94a3ed39b792e8b5c731aad8fcf2e77e9fd44bbdf68264736f6c634300080f0033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220a7a8c18af2054d48523c94a3ed39b792e8b5c731aad8fcf2e77e9fd44bbdf68264736f6c634300080f0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "62:436:11:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "62:436:11:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\r\n\r\npragma solidity ^0.8.7;\r\n\r\ncontract InfoProcess {\r\n    struct Process {\r\n        address _company; //Name of the Company that is doing the process\r\n        string _ProductClass; //Type of product\r\n        uint256 _NumberProcess; //Number of Process that we are tracking in the production\r\n        uint256 _ActualProcess; //Actual Process of the production\r\n        string _name; //Name of the order\r\n        bool _IsFinished; //Is the Process Finished\r\n    }\r\n\r\n}",
+  "sourcePath": "C:\\Users\\marti\\Documents\\Negocis\\Experto Universitario en Desarrollo de Aplicaciones Blockchain\\Temas\\49f51637-Trabajo_Final_de_Experto_BLO__PER6061_20222023-martiprat.mp@gmail.com\\Traceability_Process_TFE\\TFE\\contracts\\mapping.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/mapping.sol",
+    "exportedSymbols": {
+      "InfoProcess": [
+        1931
+      ]
+    },
+    "id": 1932,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1917,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".7"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "35:23:11"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "InfoProcess",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 1931,
+        "linearizedBaseContracts": [
+          1931
+        ],
+        "name": "InfoProcess",
+        "nameLocation": "71:11:11",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "InfoProcess.Process",
+            "id": 1930,
+            "members": [
+              {
+                "constant": false,
+                "id": 1919,
+                "mutability": "mutable",
+                "name": "_company",
+                "nameLocation": "124:8:11",
+                "nodeType": "VariableDeclaration",
+                "scope": 1930,
+                "src": "116:16:11",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                },
+                "typeName": {
+                  "id": 1918,
+                  "name": "address",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "116:7:11",
+                  "stateMutability": "nonpayable",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 1921,
+                "mutability": "mutable",
+                "name": "_ProductClass",
+                "nameLocation": "198:13:11",
+                "nodeType": "VariableDeclaration",
+                "scope": 1930,
+                "src": "191:20:11",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 1920,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "191:6:11",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 1923,
+                "mutability": "mutable",
+                "name": "_NumberProcess",
+                "nameLocation": "248:14:11",
+                "nodeType": "VariableDeclaration",
+                "scope": 1930,
+                "src": "240:22:11",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 1922,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "240:7:11",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 1925,
+                "mutability": "mutable",
+                "name": "_ActualProcess",
+                "nameLocation": "340:14:11",
+                "nodeType": "VariableDeclaration",
+                "scope": 1930,
+                "src": "332:22:11",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 1924,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "332:7:11",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 1927,
+                "mutability": "mutable",
+                "name": "_name",
+                "nameLocation": "407:5:11",
+                "nodeType": "VariableDeclaration",
+                "scope": 1930,
+                "src": "400:12:11",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 1926,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "400:6:11",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 1929,
+                "mutability": "mutable",
+                "name": "_IsFinished",
+                "nameLocation": "448:11:11",
+                "nodeType": "VariableDeclaration",
+                "scope": 1930,
+                "src": "443:16:11",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 1928,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "443:4:11",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "visibility": "internal"
+              }
+            ],
+            "name": "Process",
+            "nameLocation": "97:7:11",
+            "nodeType": "StructDefinition",
+            "scope": 1931,
+            "src": "90:403:11",
+            "visibility": "public"
+          }
+        ],
+        "scope": 1932,
+        "src": "62:436:11",
+        "usedErrors": []
+      }
+    ],
+    "src": "35:463:11"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.15+commit.e14f2714.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.8",
+  "updatedAt": "2022-07-04T18:04:38.778Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
